@@ -35,7 +35,7 @@ Enjoy! - Shaqfoo
 -  G10 - retract filament according to settings of M207
 -  G11 - retract recover filament according to settings of M208
 -  G28 - Home all Axis
--  G29 - Detailed Z-Probe, probes the bed at 3 or more points.  Will fail if you haven't homed yet.
+-  <b>G29 - Detailed Z-Probe, probes the bed at 3 or more points.  Will fail if you haven't homed yet.</b>
 -  G30 - Single Z Probe, probes bed at current XY location.
 -  G31 - Dock sled (Z_PROBE_SLED only)
 -  G32 - Undock sled (Z_PROBE_SLED only)
@@ -128,7 +128,7 @@ Enjoy! - Shaqfoo
 -  M502 - reverts to the default "factory settings".  You still need to store them in EEPROM afterwards if you want to.
 -  M503 - print the current settings (from memory not from EEPROM)
 -  M540 - Use S[0|1] to enable or disable the stop SD card print on endstop hit (requires ABORT_ON_ENDSTOP_HIT_FEATURE_ENABLED)
--  M600 - Pause for filament change X[pos] Y[pos] Z[relative lift] E[initial retract] L[later retract distance for removal]
+-  <b>M600 - Pause for filament change X[pos] Y[pos] Z[relative lift] E[initial retract] L[later retract distance for removal]</b> -
 -  M665 - set delta configurations
 -  M666 - set delta endstop adjustment
 -  M605 - Set dual x-carriage movement mode: S<mode> [ X<duplication x-offset> R<duplication temp offset> ]
