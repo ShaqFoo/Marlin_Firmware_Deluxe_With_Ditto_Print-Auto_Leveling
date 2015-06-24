@@ -1,4 +1,4 @@
-# Marlin_Firmware_Deluxe_With_Ditto_Print-Auto_Leveling
+# Marlin Deluxe Firmware with Autoleveling, Ditto Printing and more....
 
 This is my Marlin mashup using the latest release and adding some additional features.  This version is tuned to the gMax 1.5XT but should work with any RepRap style printer.   Dual X-Carriage support has been stripped out completely and replaced with Ditto printing support. (who uses that anyway?)  When Ditto Printing is enabled Extruder2 will mirror Extruder1 so you can print two of the same objects at the same time using both hotends simultaneously.
 
