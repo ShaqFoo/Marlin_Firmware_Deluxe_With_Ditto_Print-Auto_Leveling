@@ -1,16 +1,15 @@
 # Marlin Deluxe Firmware with Autoleveling, Ditto Printing and more....
 
-This is my Marlin mashup using the latest release and adding some additional features.  This version is tuned to the gMax 1.5XT but should work with any RepRap style printer.   Dual X-Carriage support has been stripped out completely and replaced with Ditto printing support. (who uses that anyway?)  When Ditto Printing is enabled Extruder2 will mirror Extruder1 so you can print two of the same objects at the same time using both hotends simultaneously.
+This is my Marlin mashup using the latest release and adding some additional features.  This version is tuned to the gMax 1.5XT but should work with any RepRap style printer.   Dual X-Carriage support has been stripped out completely and replaced with Ditto printing support. (who uses that anyway?)  When Ditto Printing is enabled Extruder2 will mirror Extruder1 so you can print two of the same objects at the same time using both hotends simultaneously. This is a feature in Makerbot's Sailfish firmware and Repetier but not Marlin.   If you have a dual extruder you can enable/disable ditto printing via the M420 S1 (enable) or S0 (disable).  The size of your ditto printed objects are limited to the distance between the two nozzles but if you need to print alot of the same part and have a dual extruder printer, Ditto Printing will cut the printing time in HALF.
 
 Main features
-
 - Auto bed Leveling
 - Ditto Printing
-- Full support for M600 (filament change) - all known issues fixed and working.  When invoked, tool head moves to predefined location, extracts 100% of the filament from the hot end and sounds an alarm via the LCD screen.   The print resumes after the LCD knob is pressed.
-- Full support for 'Out of Filament Sensor'- will trigger an M600 when filament runs out.
-- Arc Support.
-- Look Ahead.
-
+- Full support for M600 (filament change) - When invoked, tool head moves to predefined location, extracts 100% of the filament from the hot end and sounds an alarm via the LCD screen.   The print resumes after the LCD knob is pressed.
+- Full support for 'Out of Filament Sensor'- will trigger an M600 when filament runs out and sensor is triggered.
+- Arc Support
+- Look Ahead
+- And all other features of the 2015 Marlin release.
 
 This was tuned for a gMax1.5 XT dual extruder printer but it should  run on any single or dual rep rap style printer with a few tweaks.
 
