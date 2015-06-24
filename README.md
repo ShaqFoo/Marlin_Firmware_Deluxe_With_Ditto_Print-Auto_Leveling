@@ -120,7 +120,7 @@ Enjoy! - Shaqfoo
 -  M405 - Turn on Filament Sensor extrusion control.  Optional D<delay in cm> to set delay in centimeters between sensor and extruder 
 -  M406 - Turn off Filament Sensor extrusion control 
 -  M407 - Displays measured filament diameter 
--  M420 - Enables/Disables Ditto Printing. Use S[0|1] to disable or enable (by ShaqFoo)
+-  <b>M420 - Enables/Disables Ditto Printing. Use S[0|1] to disable or enable (by ShaqFoo)</b>
 -  M500 - stores parameters in EEPROM
 -  M501 - reads parameters from EEPROM (if you need reset them after you changed them temporarily).
 -  M502 - reverts to the default "factory settings".  You still need to store them in EEPROM afterwards if you want to.
