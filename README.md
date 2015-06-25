@@ -131,7 +131,6 @@ Enjoy! - Shaqfoo
 -  <b>M600 - Pause for filament change X[pos] Y[pos] Z[relative lift] E[initial retract] L[later retract distance for removal]</b> -
 -  M665 - set delta configurations
 -  M666 - set delta endstop adjustment
--  M605 - Set dual x-carriage movement mode: S<mode> [ X<duplication x-offset> R<duplication temp offset> ]
 -  M907 - Set digital trimpot motor current using axis codes.
 -  M908 - Control digital trimpot directly.
 -  M350 - Set microstepping mode.
